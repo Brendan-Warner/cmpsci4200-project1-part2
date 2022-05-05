@@ -111,6 +111,11 @@ at 90% for test size, we are getting a score of at 0.7635885112713126
 ![](/treevstestinc30.PNG)
 
 
+4.
+
+
+
+
 5.
 ![](/2.png)
 looking at the decision tree visualization, we can see a small sample of how it works. It uses a rule for each node to split the samples depending on if the value is true or false, true it goes left and false it goes right, and the purpose of the chosen rule is to get the greatest decreace in impurity in the next two nodes. The next thing to look at is the fill, which is a representation of the gini impurity value. The darker the fill color, the more pure the node is and the closer it is to its goal. boxes that are very dark with no new branches leaf nodes are where the model has gotten to an enpoint, and it no longer needs to split the samples in the node. white nodes means the samples are split evenly between the targets of the model. This particular tree only goes to a depth of 5, since the whole plot for this model is hundreds of nodes large, with a lot of depth. So it may need a lot of decisions and rules, meaning it is not very effecient but the model does have an good amount of accuracy.
