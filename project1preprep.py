@@ -63,10 +63,22 @@ x_train, x_test, y_train, y_test = train_test_split(x_data, y_data,test_size = .
 
 #reg.score(x_test, y_test)
 
+#this didn't work for plotting the linier regression
 #visual = ResidualsPlot(reg)
 #visual.fit(x_train, y_train)
 #visual.score(x_test, y_test)
 #visual.poof()
+
+
+#this did work for plotting the linier regression
+y_pred = reg.predict(x_test)
+res = y_pred - y_test
+y_pred = y_pred.flatten()
+res = res.to_numpy()
+res = res.flatten()
+plot = sns.regplot(y_pred, res)
+
+
 
 #clf = tree.DecisionTreeClassifier()
 #clf = clf.fit(x_train, y_train)
@@ -77,6 +89,7 @@ x_train, x_test, y_train, y_test = train_test_split(x_data, y_data,test_size = .
 #clf.score(x_test, y_test)
 
 
+#this is for plotting the results given by testing the models, lr is for regression, ct is for decision tree, and pr is for test size
 #lr = [-0.012793953061021712,0.0013214506726588748, 0.004985837668201931, -0.021151903018850504]
 #ct = [0.7631307929969104, 0.7638173704085136, 0.7591829728801922,0.7635885112713126]
 #pr = [10, 30, 60, 90]
