@@ -1,6 +1,6 @@
 # cmpsci4200-project1-part2
 
-#part 1
+# part 1
 1.the main target is the target column, which is whether or not a person is risky.
 important statistics are, gender, academic level, family type, owning property, income, and housing situation.
 These categories together should hopefully give the machine learning algorithm  enough data to predict if someone is risky or not.
@@ -26,10 +26,10 @@ As for the encoding, education should be labeled encoded since finishing highsch
 8. Using the standard scalier did not change the values of score when testing the two machine learning algorithms, so I simply continued without scaling. 
 9.  Shown in the python file.
 
-#part 2
+# part 2
 see python code
 
-#part 3
+# part 3
 1-3.
 for radom state = 1
 For the linear regression model
@@ -111,7 +111,9 @@ at 90% for test size, we are getting a score of at 0.7635885112713126
 ![](/treevstestinc30.PNG)
 
 
-4. the code for generating a grapgh is in the python file but it generates an error.
+4. 
+
+![](/linierregvstestinc.PNG)
 
 the image above isn't the best form of a regplot, but its what i have that acutally worked in some way. Whats its attempting to do is show the prediction for the target(y-axis) vs the residuals(x-axis). As the plot shows, the actual predictions for this linier regression model are terrible, however graph does show that in general, as the residual increases, so does the prediction, Otherwise, thier isn't anything of much note that comes from this.
 
