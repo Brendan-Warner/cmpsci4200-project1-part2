@@ -81,32 +81,32 @@ at 30% for test size, we are getting a score of 0.7638173704085136
 at 60% for test size, we are getting a score of 0.7591829728801922
 at 90% for test size, we are getting a score of at 0.7635885112713126
 
-#plot for linier regression at random state 1
+# plot for linier regression at random state 1
 
 ![](/linierregvstestinc.PNG)
 
 
-#plot for linier regression at random state 15
+# plot for linier regression at random state 15
 
 ![](/linierregvstestinc15.PNG)
 
 
-#plot for linier regression at random state 30
+# plot for linier regression at random state 30
 
 ![](/linierregvstestinc30.PNG)
 
 
-#plot for decision tree at random state 1
+# plot for decision tree at random state 1
 
 ![](/treevstestinc.PNG)
 
 
-#plot for decision tree at random state 15
+# plot for decision tree at random state 15
 
 ![](/treevstestinc15.PNG)
 
 
-#plot for decision tree at random state 30
+# plot for decision tree at random state 30
 
 ![](/treevstestinc30.PNG)
 
